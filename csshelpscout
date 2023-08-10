@@ -1,1 +1,30 @@
+body {
+       font-family: 'Helvetica', sans-serif;
+       color: #000000;
+}
 
+.twoCol .collection, .threeCol .collection { 
+	background: #F89A3F; 
+	border-color: #DBDBDB; 
+}
+
+.category-list .category {
+	background-color:#F89A3F;
+	border-bottom: 1px solid #DBDBDB;
+	border-radius: 3px;
+	border-left:0;
+	border-right:0;
+	border-top:0;
+}
+
+#searchBar .search-query {
+	background: #fff;
+	border-color: transparent;
+	box-shadow: none;
+	color: #777;
+}
+#searchBar button {
+	background: #F89A3F;
+	border-color: transparent;
+	color: #fff;
+}
